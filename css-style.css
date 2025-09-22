@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1, h2 {
+    color: #0056b3;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+section {
+    padding: 20px 0;
+}
+
+#servicos, #equipe, #contato {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#servicos .servico {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#servicos .servico img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#equipe {
+    text-align: center;
+}
+
+#equipe .membro {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+}
+
+#equipe .membro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contato label, #contato input, #contato button {
+    margin-bottom: 10px;
+}
+
+#contato input, #contato button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contato button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsividade básica */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    #equipe .membro {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
